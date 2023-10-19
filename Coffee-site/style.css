@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fraunces", serif;
+}
+.secao-topo{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #604829;
+}
+.logo{
+    position: relative;
+    width: 100px;
+    left: 15%;
+}
+.nav-bar{
+    position: absolute;
+    display: flex;
+    right: 15%;
+    top: 35%
+}
+.secao-topo li{
+    list-style-type: none;
+    padding: 10px;
+}
+.secao-topo a{
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
+}
+.banner-principal{  
+    background-image: url("./img/parallax-imagem1.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.banner-principal h1{
+    top: 45%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+/* seções de texto*/
+.secao-conteudo{
+    text-align: center;
+    padding:  100px 0px;
+}
+.secao-conteudo p{
+    margin: 0;
+    font-size: 1.3rem;
+    padding: 0% 25%;
+    line-height: 3vh;
+}
+.secao-conteudo h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+    color:#c4a47c
+}
+
+/*seções com imagem e fundo*/
+
+.banner1, .banner2{
+    height: 50vh;
+    background-image: url(img/parallax-imagem2.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.conteudo-banner{
+    background-color: #604829;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    right: 35%;
+    color: white;
+    font-weight: lighter;
+}
+
+/*banner3 secao contatos*/
+.banner3 {
+    background-image: url("./img/parallax-imagem4.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.banner3 h2 {
+    width: 500px;
+    padding: 10px;  
+    position: relative;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #604829;
+}
+
+.banner3 iframe {
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container-contatos {
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #604829;
+}
+
+.container-contatos p {
+    color: #fff;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center;
+}
+
+/* horarios de funcionamento*/
+.container-horarios{
+    background-image: url(/img/cafeteria.jpg);
+    height: 85vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-horarios h2{
+    position: absolute;
+    margin: 0 auto;
+    top: 20%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    letter-spacing: 8px;
+    color: white;
+}
+.lista-horarios {
+    max-width: 800px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    list-style: none;
+}
+
+.lista-horarios li { 
+    position: relative;
+}
+
+.lista-horarios li h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.lista-horarios li div {
+    width: 60%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+
+.lista-horarios li p{
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+}
+
+.lista-horarios li p {
+    color: #ACACAC;
+}
+.lista-horarios span{
+     color: peru;
+}
+
+/* rodapé */
+.rodape {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.rodape span {
+    color: #c4a47c;
+}
+
+.rodape a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+
+    background-image: url("./img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
