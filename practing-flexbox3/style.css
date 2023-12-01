@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+span{
+    color: #c4a47c;
+}
+
+.container{
+    padding: 100px 20px;
+    height: 100vh;
+    background-image: url(img/imagem-de-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+h2{
+    padding-top: 100px;
+    font-size: 30px;
+}
+.lista-horarios{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.lista-horarios li{
+    margin-bottom: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lista-horarios li div{
+    height: 1px;
+    background-color: gray;
+    flex: 1 1 auto;
+}
+.lista-horarios li p, span{
+    text-align: right;
+    flex: 0 1 170px;
+    font-size: 25px;
+}
+.lista-horarios li h3{
+    text-align: left;
+    flex: 0 1 130px;
+    font-size: 25px;
+}
